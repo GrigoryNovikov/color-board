@@ -8,7 +8,6 @@ for (let i = 0; i < SQUARES_NUMBER; i++) {
 
    square.addEventListener('touchstart', () => setColor(square))
    square.addEventListener('touchmove', () => setColor(square))
-   square.addEventListener('touchcancel', () => setColor(square))
    square.addEventListener('touchend', () => removeColor(square))
 
    square.addEventListener('mouseover', () => setColor(square))
